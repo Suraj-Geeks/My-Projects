@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+height: 620px;
+width: 100%;
+background-color: rgba(128, 128, 128, 0.637);
+display: flex;
+justify-content: space-evenly;
+}
+
+.box1{
+    background-color: white;
+    width: 20%;
+    height: 520px;
+    position: relative;
+    top: 40px;
+   text-align: center;
+   border-radius: 20px;
+    
+}
+
+img{
+
+    height: 220px;
+    width: 60%;
+}
+
+h2::before{
+    content: ' \0024';
+}
+
+.checked {
+    color: orange;
+  }
+
+
+button{
+    background-color: rgb(89, 198, 241);
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 200;
+}
+
+
+
+
+.box2{
+    background-color: white;
+    width: 20%;
+    height: 520px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+   border-radius: 20px;
+}
+
+#earbuds{
+    background-color: rgb(13, 26, 212);
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 200;
+}
+
+.box3{
+    background-color: white;
+    width: 20%;
+    height: 520px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#watch{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 200;
+
+}
+
+.box4{
+    background-color: white;
+    width: 20%;
+    height: 520px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#iphone{
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 200;
+
+}

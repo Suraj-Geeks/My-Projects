@@ -1,0 +1,9 @@
+
+
+.item1{
+    visibility: hidden;
+}
+
+.main:hover>.item1{
+    visibility: visible;
+}

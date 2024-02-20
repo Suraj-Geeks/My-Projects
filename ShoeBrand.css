@@ -1,0 +1,81 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid red;
+    display: flex;
+    
+}
+
+
+.main{
+
+    height: 360px;
+    width: 280px;
+   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.473);
+   margin: 8px;
+}
+.shoe{
+    height: 265px;
+}
+
+img{
+
+    height: 240px;
+    width: 280px;
+}
+
+.content{
+     height: 98px;
+    background-color: rgba(128, 128, 128, 0.692);
+   
+}
+.content-box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    margin-left: 8px;
+    
+}
+
+.bx-shopping-bag{
+    height: 25px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;    
+    text-align: center;
+    padding: 3px;
+}
+
+h3{
+    font-size: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.rating-cost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.rating{
+    margin-left: 8px;
+}
+.checked{
+    color: orange;
+}
+
+.costing{
+    margin-right: 8px;
+}
+span{
+    border: 1px solid gray;
+}
